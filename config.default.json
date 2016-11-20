@@ -1,0 +1,19 @@
+{
+    "host": null,
+    "port": 8085,
+
+    "db": {
+        "dsl": "mongodb://localhost:27017/mazaid"
+    },
+
+    "nprof": {
+        "snapshotPath": "/data/tmp/mazaid/notifications"
+    },
+
+    "backends": {
+        "telegram": {
+            "token": "<token>",
+            "to": "<chat_id>"
+        }
+    }
+}
